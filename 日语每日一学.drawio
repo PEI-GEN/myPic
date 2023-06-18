@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T13:49:14.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.3.8" etag="b2yCzEOFS64JQxXVQI8e" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T13:55:14.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="49OB9P8hrbVfNjRehk5h" version="21.3.8" type="github">
   <diagram name="第 1 页" id="RE2z-qrUEHWpGrGB8Btz">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1212" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffbf" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
+        <object label="" id="0">
+          <mxCell />
+        </object>
         <mxCell id="1" parent="0" />
+        <mxCell id="s05M5JgtSvxT8I7wO1dK-3" value="毎日日本語を勉強する" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="-225" width="274" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="s05M5JgtSvxT8I7wO1dK-4" value="日语每日一学" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="44" y="-170" width="108" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
