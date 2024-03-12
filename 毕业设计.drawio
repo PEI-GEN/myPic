@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T07:37:40.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.5.0" etag="LamA954MM6mANtXvJUL2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T08:24:22.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="ap0ldTwwGfNCxZP39V9j" version="21.5.0" type="github">
   <diagram name="第 1 页" id="-HzKsZkmTxGfxk5T1sYI">
-    <mxGraphModel>
+    <mxGraphModel dx="2474" dy="1556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JRH7TbMGBQL19cqoVbQF-2" target="JRH7TbMGBQL19cqoVbQF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-2" value="登录界面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-6" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=default;" edge="1" parent="1" source="JRH7TbMGBQL19cqoVbQF-3" target="JRH7TbMGBQL19cqoVbQF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-3" value="登录" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="-99" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JRH7TbMGBQL19cqoVbQF-4" target="JRH7TbMGBQL19cqoVbQF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRH7TbMGBQL19cqoVbQF-4" value="退出登录" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="64" y="-168" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
