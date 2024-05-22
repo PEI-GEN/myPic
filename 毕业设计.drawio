@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T11:27:27.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="GJ-bYEBFhR6DonmupUT8" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T13:09:57.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="HorG1W0hXPr7DE-NpRj-" version="24.4.0" type="github">
   <diagram name="第 1 页" id="-HzKsZkmTxGfxk5T1sYI">
     <mxGraphModel dx="2234" dy="1196" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -768,6 +768,9 @@
         </mxCell>
         <mxCell id="iffYB2jGha-x1ZUTrtKe-43" value="前端网页" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-80.5" y="6813" width="70" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="iffYB2jGha-x1ZUTrtKe-45" value="系统整体架构图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-79.5" y="6437" width="165" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
