@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="l5Lf0VB6GXugXm_NKXEi">
-    <mxGraphModel dx="3773" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2441" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1142,7 +1142,7 @@
         <mxCell id="rynvTIRfDshoLx3w2XqS-611" value="新增" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1094.5" y="6380" width="411" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="rynvTIRfDshoLx3w2XqS-612" value="bpm_product_price_info" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="rynvTIRfDshoLx3w2XqS-612" value="（产品价格信息表）bpm_product_price_info" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1738.25" y="6800" width="191" height="34" as="geometry" />
         </mxCell>
         <mxCell id="rynvTIRfDshoLx3w2XqS-613" value="新增中标价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -1301,6 +1301,186 @@
         </mxCell>
         <mxCell id="rynvTIRfDshoLx3w2XqS-663" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.44;entryY=1;rounded=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-600" target="rynvTIRfDshoLx3w2XqS-612">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-664" value="查询" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="708" y="8060" width="644" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-745" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-665" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-665" value="查询有效备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1207.75" y="8160" width="129" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-723" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-666" target="rynvTIRfDshoLx3w2XqS-722">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-666" value="删除产品价格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="8114" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-746" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-667">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600.0000000000005" y="7920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-667" value="根据价格ID和区域列表查询备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="8216" width="255" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-725" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-668" target="rynvTIRfDshoLx3w2XqS-667">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-668" value="查询招标价格排行信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="8216" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-747" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-669" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-669" value="根据区域编码、药品ID、执行日期查询备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="8267" width="273" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-733" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-670" target="rynvTIRfDshoLx3w2XqS-669">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-670" value="查询并赋值备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="922" y="8267" width="115" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-732" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-671" target="rynvTIRfDshoLx3w2XqS-670">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-671" value="二次议价终审更新备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="8267" width="152" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-748" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-672" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-672" value="根据药品ID和区域编码查询备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="8319" width="255" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-735" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-673" target="rynvTIRfDshoLx3w2XqS-672">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-673" value="查询产品各类价格信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="8319" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-749" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-674" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-674" value="根据药品ID列表和区域编码查询备案价集合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="8370" width="256" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-736" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-675" target="rynvTIRfDshoLx3w2XqS-674">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-675" value="查询产品价格（开票价）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="8370" width="161" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-676" value="更新" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="962" y="7920" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-742" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-677" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-677" value="更新备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1240.25" y="7945" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-720" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-678" target="rynvTIRfDshoLx3w2XqS-677">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-678" value="新增产品价格备案价ID不为空" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="977.75" y="7945" width="222" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-743" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-679" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-679" value="更新备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1239.75" y="7995" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-721" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-680" target="rynvTIRfDshoLx3w2XqS-679">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-680" value="备案价终审之后" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1071.75" y="7995" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-681" value="删除" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1023.75" y="7810" width="328.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-741" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-682" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-682" value="根据ID软删除备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1181.75" y="7850" width="159" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-719" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-683" target="rynvTIRfDshoLx3w2XqS-682">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-683" value="删除产品价格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1031.75" y="7850" width="113" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-684" value="新增" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="7633" width="392" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-685" value="（备案价信息表）bpm_record_price" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1525.5" y="7886" width="146" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-737" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-686" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-686" value="新增备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1244.5" y="7664" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-715" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-687" target="rynvTIRfDshoLx3w2XqS-686">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-687" value="新增产品价格全国价格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1012.5" y="7664" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-739" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-688" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-688" value="新增备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1244.5" y="7704" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-717" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-689" target="rynvTIRfDshoLx3w2XqS-688">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-689" value="修改产品价格备案价ID为空" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="983.5" y="7704" width="206" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-740" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-690" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-690" value="新增备案价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1244.5" y="7744" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-718" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-691" target="rynvTIRfDshoLx3w2XqS-690">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-691" value="备案价终审之后" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1061.5" y="7744" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-728" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-722" target="rynvTIRfDshoLx3w2XqS-727">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-730" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rynvTIRfDshoLx3w2XqS-728">
+          <mxGeometry x="0.0525" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-729" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-722" target="rynvTIRfDshoLx3w2XqS-665">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-731" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rynvTIRfDshoLx3w2XqS-729">
+          <mxGeometry x="0.0801" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-722" value="判断中标价有无备案价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="952" y="8091" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-744" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rynvTIRfDshoLx3w2XqS-727" target="rynvTIRfDshoLx3w2XqS-685">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rynvTIRfDshoLx3w2XqS-727" value="删除该中标价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1207.75" y="8090" width="129" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
