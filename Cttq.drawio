@@ -4,10 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hMDY3C7VhPyiTPUDgX0r-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMDY3C7VhPyiTPUDgX0r-82">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1870" y="11075" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="hMDY3C7VhPyiTPUDgX0r-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMDY3C7VhPyiTPUDgX0r-82" target="hMDY3C7VhPyiTPUDgX0r-95">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-82" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1576" y="10960" width="200" height="230" as="geometry" />
@@ -1955,7 +1953,7 @@
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMDY3C7VhPyiTPUDgX0r-69" target="hMDY3C7VhPyiTPUDgX0r-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMDY3C7VhPyiTPUDgX0r-69" value="为权限角色添加具体页面权限" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hMDY3C7VhPyiTPUDgX0r-69" value="为权限角色设置具体页面权限" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1307.25" y="11064" width="187" height="34" as="geometry" />
         </mxCell>
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-70" value="在权限角色中添加用户账号" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
@@ -1967,7 +1965,7 @@
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-72" value="配置接口" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1637" y="11016" width="79" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="hMDY3C7VhPyiTPUDgX0r-73" value="在对应的页面设置接口权限" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hMDY3C7VhPyiTPUDgX0r-73" value="为对应的页面设置接口权限" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1589.43" y="11110" width="174.13" height="34" as="geometry" />
         </mxCell>
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-83" value="账号权限" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
@@ -1983,10 +1981,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-87" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="982.5" y="11045" width="30" height="60" as="geometry" />
+          <mxGeometry x="1002.25" y="11045" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hMDY3C7VhPyiTPUDgX0r-95" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1874" y="11046" width="30" height="60" as="geometry" />
+          <mxGeometry x="1832.5" y="11045" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
