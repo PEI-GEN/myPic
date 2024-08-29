@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="l5Lf0VB6GXugXm_NKXEi">
-    <mxGraphModel dx="2765" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2387,6 +2387,81 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yKUO5xQ4mtwYFIjXQCxF-44" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-21" target="yKUO5xQ4mtwYFIjXQCxF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-48" value="校验模板是否有误" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1152.37" y="14550" width="145" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-49" value="将导入的数据转化成实体类" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1120.37" y="14621" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-50" value="数据解析" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1184.37" y="14692" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-51" target="yKUO5xQ4mtwYFIjXQCxF-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-51" value="校验导入数据量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1160.37" y="14763" width="129" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-52" target="yKUO5xQ4mtwYFIjXQCxF-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-52" value="根据二次议价医院编码、直接供货商编码、一级商编码查询客商信息" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="976.3699999999999" y="14833" width="497" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-53" value="根据产品编码查询产品信息" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120.37" y="14904" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-54" value="根据产品信息查询同类产品" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120.87" y="14975" width="208" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-55" value="根据“区域+产品ID+时间段+同类产品”查询二次议价最低进院价" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="996.3699999999999" y="15046" width="457" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-56" value="根据“区域+同产品+时间段”查询匹配的开票执行价，并去除高开客户的价格" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="951.3699999999999" y="15117" width="547" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-57" value="查询开票价：跨省或不跨省情况" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1104.87" y="15188" width="240" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-58" value="封装议价医院信息、直接供货商信息、一级商信息、产品信息、开票价、同品种最低进院价" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="896.8699999999999" y="15258" width="656" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-59" value="设置补差单价、议价比例、补差比例、实际进院价" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040.87" y="15329" width="368" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-60" value="设置是否有多个开票价" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1136.87" y="15400" width="176" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-61" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-48" target="yKUO5xQ4mtwYFIjXQCxF-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-62" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-49" target="yKUO5xQ4mtwYFIjXQCxF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-64" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-50" target="yKUO5xQ4mtwYFIjXQCxF-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-66" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-53" target="yKUO5xQ4mtwYFIjXQCxF-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-67" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-54" target="yKUO5xQ4mtwYFIjXQCxF-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-68" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-55" target="yKUO5xQ4mtwYFIjXQCxF-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-69" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-56" target="yKUO5xQ4mtwYFIjXQCxF-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-70" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-57" target="yKUO5xQ4mtwYFIjXQCxF-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-71" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-58" target="yKUO5xQ4mtwYFIjXQCxF-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKUO5xQ4mtwYFIjXQCxF-72" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="yKUO5xQ4mtwYFIjXQCxF-59" target="yKUO5xQ4mtwYFIjXQCxF-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
