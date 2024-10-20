@@ -3404,6 +3404,44 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-40" value="明细数据（creat_date为&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;10月20日）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="936" y="23764" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0nqSZU6AEG6rG1QYN0Xk-41" target="0nqSZU6AEG6rG1QYN0Xk-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-41" value="对应客商数据版本为10月20日" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1176.5" y="23762" width="177" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-42" value="10月22日该客商数据更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;sketch=1;curveFitting=1;jiggle=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1188.5" y="23917" width="153" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0nqSZU6AEG6rG1QYN0Xk-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1177" y="23775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-46" value="明细数据（creat_date为&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;10月23日）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;sketch=1;curveFitting=1;jiggle=2;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="934.75" y="23917" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.023;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0nqSZU6AEG6rG1QYN0Xk-46" target="0nqSZU6AEG6rG1QYN0Xk-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=1;fontSize=12;" edge="1" parent="1" source="0nqSZU6AEG6rG1QYN0Xk-48" target="0nqSZU6AEG6rG1QYN0Xk-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-48" value="有效日期为&lt;div style=&quot;font-size: 12px;&quot;&gt;2000-01-01&amp;nbsp;&lt;span style=&quot;color: rgb(8, 8, 8); font-size: 12px; white-space-collapse: preserve; background-color: initial;&quot;&gt;00:00:00&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;—2099.12.31&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space-collapse: preserve; color: rgb(8, 8, 8); font-size: 12px;&quot;&gt;23:59:59&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="23748" width="255" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=1;fontSize=12;" edge="1" parent="1" source="0nqSZU6AEG6rG1QYN0Xk-49" target="0nqSZU6AEG6rG1QYN0Xk-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-49" value="有效日期为&lt;div style=&quot;font-size: 12px;&quot;&gt;2000-01-01&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: initial; color: rgb(8, 8, 8); font-size: 12px;&quot;&gt;00:00:00&lt;/span&gt;—2024.10.22&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space-collapse: preserve; color: rgb(8, 8, 8); font-size: 12px;&quot;&gt;:45:35&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="23826" width="252" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="0nqSZU6AEG6rG1QYN0Xk-50" value="有效日期为&lt;div style=&quot;font-size: 12px;&quot;&gt;2024-10-22&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&amp;nbsp;10&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space-collapse: preserve; color: rgb(8, 8, 8); font-size: 12px;&quot;&gt;:45:36&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;—2099.12.31&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space-collapse: preserve; color: rgb(8, 8, 8); font-size: 12px;&quot;&gt;23:59:59&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1369" y="23903" width="255" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
